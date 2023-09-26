@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    z-index: 2;
+    /* position: absolute; */
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    color: black;
+}
+
+.navbar .left {
+    height: 100%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 10%;
+}
+
+.navbar .left img {
+    width: 100%;
+    height: 90%;
+}
+
+.hamburger {
+    width: 50px;
+    height: 40px;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.hamburger div {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(254, 179, 30);
+
+}
+
+.navbar .right {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    right: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .right .list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar .right .list-Item {
+    width: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.navbar p {
+    font-size: 14px;
+}
+
+.donate-btn {
+    background-color: rgb(254, 179, 30);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50%;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.donate-btn p {
+    font-size: 15px;
+}
+
+.banner {
+    background-image: url('../../images/slider-2.jpg');
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 43px;
+}
+
+
+.first-sec {
+    width: 70%;
+    height: 50vh;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+
+.first-sec .left {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: right;
+    width: 36%;
+}
+
+.first-sec .right {
+    width: 54%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-sec .right p {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.second-sec {
+    width: 60%;
+    height: 20vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-sec .item {
+    width: 19%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #e3e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-sec .item .icon {
+    border: 1px solid rgb(254, 179, 30);
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.second-sec .item .icon i {
+    font-size: 25px;
+    color: rgb(254, 179, 30);
+}
+
+.second-sec .item p {
+    font-weight: 900;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.third-sec {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.third-sec .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(254, 179, 30);
+    padding: 5px;
+    width: 28%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 50vh;
+    position: relative;
+    margin-right: -25px;
+    margin-top: -40px;
+}
+
+.third-sec .left .inner-content {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-sec .left .inner-content h2 {
+    padding-bottom: 20px;
+}
+
+.third-sec .left .inner-content p {
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.third-sec .right {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../images/campaign-1.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.third-sec .right .play {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(254, 179, 30);
+    width: 60px;
+    height: 60px;
+}
+
+.third-sec .right i {
+    font-size: 30px;
+    color: white;
+}
+
+
+.fourth-sec {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../../images/slider-3.jpg');
+    background-size: cover;
+}
+
+.fourth-sec p {
+    color: rgb(254, 179, 30);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.fourth-sec h1 {
+    color: white;
+    width: 65%;
+    text-align: center;
+    font-size: 40px;
+}
+.fourth-sec .btn{
+    height: 40px;
+    background-color: rgb(254, 179, 30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.fourth-sec .btn p{
+    color: white;
+    font-size: 15px;
+    transition: all 0.4s ease-in-out;
+
+}
+.fourth-sec .btn:hover{
+    background-color: transparent;
+    border: 2px solid  rgb(254, 179, 30);
+    transition: all 0.4s ease-in-out;
+}
+.fourth-sec .btn:hover p{
+    color:  rgb(254, 179, 30);
+    transition: all 0.4s ease-in-out;
+
+}
+.footer {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(232, 231, 231);
+}
+
+.footer .first,
+.second,
+.third {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.footer i {
+    background-color: rgb(208, 204, 204);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.footer .second {
+    flex-direction: column;
+    width: fit-content;
+}
+
+.footer .second .upper-tc {
+    display: flex;
+    font-size: 13px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.footer .second .upper-tc p:nth-child(1) {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid grey;
+}
+
+.lower-copy {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.footer .third img {
+    width: 30%;
+    height: 100%;
+}

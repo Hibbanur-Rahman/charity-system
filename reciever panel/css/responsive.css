@@ -1,0 +1,22 @@
+@media screen and (max-width:480px) {
+    .sidebar {
+        width: 85%;
+        height: auto;
+        padding-top: 15vh;
+        padding-bottom: 15vh;
+        background-color: white;
+        left: -87%;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .main {
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: 0%;
+        padding: 10px;
+    }
+
+}

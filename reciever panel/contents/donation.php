@@ -1,0 +1,47 @@
+<?php
+    include_once "../../config/dbconnect.php";
+?>
+
+<div class="track-donation">
+    <div class="content">
+        <div class="head">
+            <h1>Donation Status</h1>
+        </div>
+        <table>
+            <tr>
+                <th>Transaction Id</th>
+                <th>Charity Name</th>
+                <th>Campaign Name</th>
+                <th>Payment Mode</th>
+                <th>Donation Amount</th>
+                <th>Paid On</th>
+                <th>Status</th>
+                <th>Spent For</th>
+                <th>Spent On</th>
+            </tr>
+            <?php
+                $sql="SELECT `transaction id`, `charity name`, `campaign name`, `payment mode`, `donation amount`, `paid on`, `status`, `spent for`, `spent on` FROM `track_donation`";
+                $qry=mysqli_query($conn,$sql);
+                if($qry){
+                    while($row=mysqli_fetch_assoc($qry)){
+            ?>
+            <tr>
+                <td><?=$row['transaction id']?></td>
+                <td><?=$row['charity name']?></td>
+                <td><?=$row['campaign name']?></td>
+                <td><?=$row['payment mode']?></td>
+                <td><?=$row['donation amount']?></td>
+                <td><?=$row['paid on']?></td>
+                <td><?=$row['status']?></td>
+                <td><?=$row['spent for']?></td>
+                <td><?=$row['spent on']?></td>
+            </tr>
+            <?php
+                    }
+                }
+            ?>
+           
+
+        </table>
+    </div>
+</div>

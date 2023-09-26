@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: -webkit-linear-gradient(left, #665c00, #edf513, #efa907, #f99b28); */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    width: 20%;
+    height: auto;
+    border: 1px solid rgb(206, 203, 203);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.head-nav {
+    display: flex;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.head-nav div {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(left, rgb(254, 220, 28), rgb(251, 217, 29), rgba(255, 217, 0, 0.966));
+    cursor: pointer;
+}
+
+.signup {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* display: none; */
+}
+
+.login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* display: none; */
+}
+
+form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+form p {
+    color: rgb(248, 187, 47);
+    text-align: left;
+    width: 100%;
+    font-size: 13px;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(214, 210, 210);
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: all 0.4s ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(248, 187, 47);
+    transition: all 0.4s ease-in-out;
+    /* color:   rgb(248, 187, 47); */
+}
+
+input:focus::placeholder {
+    color: rgb(248, 187, 47);
+    transition: all 0.4s ease-in-out;
+}
+
+.not-member p {
+    font-size: 13px;
+    color: rgb(248, 187, 47);
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+@media screen and (max-width:480px) {
+    body {
+        padding: 10px;
+        height: 75vh;
+    }
+
+    .container {
+        width: 100%;
+    }
+}

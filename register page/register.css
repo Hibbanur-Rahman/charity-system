@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: -webkit-linear-gradient(left, #665c00, #edf513, #efa907, #f99b28); */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.main {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(249, 249, 249);
+    border-radius: 20px;
+    box-shadow: 2px 8px 16px 2px rgb(219, 219, 219);
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.main .content {
+    width: 64%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .content .head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.main .content .head h1 {
+
+    font-size: 23px;
+    color: rgb(254, 179, 30);
+
+}
+
+.main .content .list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+
+.main .content .list .item {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 13px;
+}
+
+.main .content .list .item .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item .icon .bg {}
+
+.item .icon .bg img {
+    color: rgb(254, 179, 30);
+    ;
+}
+
+.item .icon .icon-profile {
+    width: 55px;
+    position: absolute;
+    background-color: rgb(254, 179, 30);
+    height: 55px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: -3px;
+}
+
+.item .icon .icon-profile img {
+    width: 100%;
+    height: 100%;
+}
+
+.item a {
+    width: 220px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+}
+
+.item button {
+    width: 100%;
+    height: 36px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(254, 179, 30);
+    cursor: pointer;
+}
+
+.item button p {
+    font-size: 16px;
+    color: white;
+}
+
+
+
+@media screen and (max-width:480px) {
+    body {
+        padding: 15px;
+        height: 70vh;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .main .content {
+        width: 75%;
+    }
+}

@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    z-index: 2;
+    /* position: absolute; */
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    color: black;
+}
+
+.navbar .left {
+    height: 100%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 10%;
+}
+
+.navbar .left img {
+    width: 100%;
+    height: 90%;
+}
+
+.hamburger {
+    width: 50px;
+    height: 40px;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.hamburger div {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(254, 179, 30);
+
+}
+
+.navbar .right {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    right: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .right .list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar .right .list-Item {
+    width: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.navbar p {
+    font-size: 14px;
+}
+
+.donate-btn {
+    background-color: rgb(254, 179, 30);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50%;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.donate-btn p {
+    font-size: 15px;
+}
+
+.banner {
+    background-image: url('../../images/slider-2.jpg');
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 43px;
+}
+
+
+.second-sec {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.second-sec p:nth-child(1) {
+    color: rgb(254, 179, 30);
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.second-sec h1 {
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.second-sec .row {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.event-item {
+    width: 45%;
+    height: 60vh;
+    border-radius: 20px;
+    border: 0.5px solid rgb(227, 227, 227);
+    background-size: cover;
+    filter: brightness(1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 10px 4px rgba(227, 222, 222, 0.716);
+    transition: all 0.4s ease-in-out;
+}
+
+.event-item:hover {
+    box-shadow: 1px 5px 29px 6px rgb(208, 208, 208);
+    transition: all 0.4s ease-in-out;
+
+}
+
+.event-item:nth-child(1) {
+    background-image: url('../../images/slider-1.jpg');
+}
+
+.event-item:nth-child(2) {
+    background-image: url('../../images/campaign-3.jpg');
+}
+
+.upper-top {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(254, 179, 30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+    position: absolute;
+    top: 20px;
+    right: 12px;
+}
+
+.upper-top h4 {
+    color: white;
+}
+
+.content-lower {
+    padding-top: 90px;
+}
+
+.content-lower h2 {
+    font-size: 25px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.content-lower p {
+    font-size: 14px;
+    font-weight: 800;
+    color: rgb(227, 225, 225);
+}
+
+.time-loc {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    padding-bottom: 20px;
+}
+
+.time-loc div {
+    display: flex;
+    align-items: center;
+}
+
+.time-loc div i {
+    color: rgb(254, 179, 30);
+    padding-right: 10px;
+}
+
+.time-loc div p {
+    font-size: 13px;
+}
+
+.details {
+    width: 150px;
+    height: 40px;
+    border: 2px solid rgb(254, 179, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 40px;
+    transition: all 0.4s ease-in-out;
+}
+
+.details:hover {
+    cursor: pointer;
+    background-color: rgb(254, 179, 30);
+    transition: all 0.4s ease-in-out;
+}
+
+.details:hover p {
+    color: white;
+}
+
+.details p {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.viewAllEvent {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(254, 179, 30);
+    border-radius: 20px;
+}
+
+.viewAllEvent p:nth-child(1) {
+    color: white;
+}
+
+
+.last-sec{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.last-sec p{
+    color: rgb(254, 179, 30);
+    font-weight: 900;
+    font-size: 20px;
+}
+.last-sec h1{
+    font-size: 43px;
+    text-align: center;
+}
+.search-bar{
+    width: 60%;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: rgb(254, 179, 30);
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.search-bar input{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(254, 179, 30);
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 25px;
+    border: none;
+    caret-color:  rgb(250, 250, 249);
+}
+.search-bar input::placeholder{
+    font-size: 15px;
+    color: white;
+}
+.search-bar input:focus{
+    outline: none;
+}
+
+.search-bar button{
+    position: absolute;
+    border-radius: 20px;
+    height: 44px;
+    border: 2px solid white;
+    background-color: rgb(254, 179, 30);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4px;
+    cursor: pointer;
+}
+.search-bar button p{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.footer {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(232, 231, 231);
+}
+
+.footer .first,
+.second,
+.third {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.footer i {
+    background-color: rgb(208, 204, 204);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.footer .second {
+    flex-direction: column;
+    width: fit-content;
+}
+
+.footer .second .upper-tc {
+    display: flex;
+    font-size: 13px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.footer .second .upper-tc p:nth-child(1) {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid grey;
+}
+
+.lower-copy {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.footer .third img {
+    width: 30%;
+    height: 100%;
+}

@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    z-index: 2;
+    /* position: absolute; */
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    color: black;
+}
+
+.navbar .left {
+    height: 100%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 10%;
+}
+
+.navbar .left img {
+    width: 100%;
+    height: 90%;
+}
+
+.hamburger {
+    width: 50px;
+    height: 40px;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.hamburger div {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(254, 179, 30);
+
+}
+
+.navbar .right {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    right: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .right .list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar .right .list-Item {
+    width: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.navbar p {
+    font-size: 14px;
+}
+
+.donate-btn {
+    background-color: rgb(254, 179, 30);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50%;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.donate-btn p {
+    font-size: 15px;
+}
+
+.banner {
+    background-image: url('../../images/slider-2.jpg');
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 43px;
+}
+
+.team{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.team p:nth-child(1){
+    color:rgb(254, 179, 30);
+    font-weight: 900;
+    font-size: 18px;
+}
+.team h1{
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.team .row{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 18vh;
+}
+.team-item{
+    width: 28%;
+    height: 50vh;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 10px 2px rgb(236, 232, 232) ;
+}
+.team-item .content{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    padding: 15px;
+    position: relative;
+    bottom: -25vh;
+    box-shadow: 0px 3px 10px 2px rgb(236, 232, 232) ;
+}
+.team-item .content p:nth-child(1){
+    font-size: 14px;
+    padding-bottom: 0px;
+}
+.team-item .content p:nth-child(3){
+    font-size: 13px;
+    font-weight: 800;
+    color: rgb(63, 61, 61);
+}
+.team-item .content h1{
+    font-size: 23px;
+    padding-top: 5px;
+}
+.team-item .content .right{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.team-item .content .right i{
+    border-radius: 50%;
+    border:2px solid rgb(254, 179, 30);
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: rgb(254, 179, 30);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.team-item .content .right i:nth-child(1){
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.team-item:nth-child(1){
+    background-image: url('../../images/volunteer-1.jpg');
+}
+.team-item:nth-child(2){
+    background-image: url('../../images/volunteer-2.jpg');
+}
+.team-item:nth-child(3){
+    background-image: url('../../images/volunteer-3.jpg');
+}
+
+
+
+.footer {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(232, 231, 231);
+}
+.footer .first,
+.second,
+.third {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.footer i {
+    background-color: rgb(208, 204, 204);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.footer .second {
+    flex-direction: column;
+    width: fit-content;
+}
+
+.footer .second .upper-tc {
+    display: flex;
+    font-size: 13px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.footer .second .upper-tc p:nth-child(1) {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid grey;
+}
+
+.lower-copy {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.footer .third img {
+    width: 30%;
+    height: 100%;
+}

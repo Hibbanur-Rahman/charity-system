@@ -1,0 +1,165 @@
+@media screen and (max-width:480px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .navbar .left {
+        width: 100%;
+        height: 70px;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        right: 0px;
+        background: black;
+        z-index: 1;
+    }
+
+    .navbar .left img {
+        width: 40%;
+    }
+
+    .navbar .right {
+        width: 100%;
+        right: 0px;
+        height: auto;
+        background-color: black;
+        position: absolute;
+        z-index: 0;
+        top: -100vh;
+        transition: all 0.5s ease-in-out;
+        padding-bottom: 20px;
+    }
+
+    .navbar .right .list {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .navbar .right .list-Item {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px
+    }
+
+    .navbar .right .list-Item p {
+        color: white;
+    }
+
+    .navbar .right .list .donate-btn {
+        width: 40%;
+        margin: auto;
+        border-radius: 20px;
+        height: 40px;
+    }
+
+    .navbar p {
+        font-size: 20px;
+    }
+
+    .navbar .right .list .donate-btn p {
+        font-size: 20px;
+    }
+
+    .banner {
+        height: 28vh;
+    }
+
+    .recent-campaign {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+        padding-top: 100px;
+        padding-bottom: 30vh;
+    }
+    .recent-campaign .row{
+        flex-direction: column;
+    }
+    #recent-head-p{
+        font-size: 21px;
+        padding-bottom: 20px;
+    }
+    .recent-campaign h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .viewAll {
+        margin-top: 10px;
+        float: left;
+        margin-bottom: 30px;
+    }
+    .recent-campaign .row{
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .campaign-item {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .recent-campaign .donate-btn {
+        width: 45%;
+    }
+    .program-details {
+        width: 45%;
+    }
+    .fourth-sec h1 {
+        color: white;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .fourth-sec .btn {
+        margin-top: 50px;
+    }
+    .counter {
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        height: auto;
+        overflow: hidden;
+        border-radius: 15px;
+        margin-top: -64vh;
+        width: 93%;
+    }
+
+    .count-item {
+        width: 49%;
+        height: 13vh;
+        border-top: 2px solid rgba(255, 255, 255, 0.595);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .count-item h3 {
+        font-size: 30px;
+    }
+
+    .count-item p:nth-child(2) {
+        font-size: 18px;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: 30vh;
+        box-sizing: border-box;
+        padding: 6px;
+    }
+
+    .footer .first,
+    .second,
+    .third {
+        width: 100%;
+    }
+}

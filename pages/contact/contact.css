@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    z-index: 2;
+    /* position: absolute; */
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    color: black;
+}
+
+.navbar .left {
+    height: 100%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 10%;
+}
+
+.navbar .left img {
+    width: 100%;
+    height: 90%;
+}
+
+.hamburger {
+    width: 50px;
+    height: 40px;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.hamburger div {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(254, 179, 30);
+
+}
+
+.navbar .right {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    right: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .right .list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar .right .list-Item {
+    width: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.navbar p {
+    font-size: 14px;
+}
+
+.donate-btn {
+    background-color: rgb(254, 179, 30);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50%;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.donate-btn p {
+    font-size: 15px;
+}
+
+.banner {
+    background-image: url('../../images/slider-2.jpg');
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 43px;
+}
+
+
+.map {
+    width: 100%;
+    height: 60vh;
+    box-sizing: border-box;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.contact {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+
+}
+
+.contact .left {
+    width: 47%;
+
+}
+
+.contact .head p:nth-child(1) {
+    color: rgb(254, 179, 30);
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.contact .head h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.contact .head p {
+    font-size: 15px;
+}
+
+.contact .lower {
+    width: 100%;
+}
+
+.contact .lower .item {
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    border: 2px solid rgb(254, 179, 30);
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 20px;
+}
+
+.contact .lower .item .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(254, 179, 30);
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.contact .lower .item .icon i {
+    font-size: 25px;
+    color: white;
+    background-color: rgb(254, 179, 30);
+    
+}
+
+.contact .lower .item .content h2 {
+    font-size: 19px;
+}
+
+.contact .lower .item .content p {
+    font-size: 14px;
+}
+
+
+.contact .right {
+    width: 45%;
+}
+.contact .right form{
+    width: 100%;
+    height: 80vh;
+    background-image: url('../../images/about us.jpeg');
+    background-size: cover;
+    border-radius:20px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.contact .right form .row{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.contact .right form input{
+    width: 48%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.538);
+    border: none;
+    transition: all 0.4s ease-in-out;
+
+}
+.contact .right form input:focus{
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.897);
+    transition: all 0.4s ease-in-out;
+}
+.contact .right form textarea{
+    max-width: 100%;
+    max-height: 25vh;
+    min-width: 100%;
+    min-height: 25vh;
+    border-radius: 15px;
+    border: none;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.538);
+    transition: all 0.4s ease-in-out;
+
+}
+.contact .right form textarea:focus{
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.897);
+    transition: all 0.4s ease-in-out;
+
+}
+.contact .right form button{
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(254, 179, 30);
+    position:relative;
+    left: -30%;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.contact .right form button p{
+    color: white;
+    font-weight: 500;
+}
+.contact .right form button:hover{
+    background-color: transparent;
+    border: 2px solid  rgb(254, 179, 30);
+    transition: all 0.4s ease-in-out;
+    
+}
+.contact .right form button:hover p{
+    color:  rgb(254, 179, 30);
+}
+.footer {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(232, 231, 231);
+}
+
+.footer .first,
+.second,
+.third {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.footer i {
+    background-color: rgb(208, 204, 204);
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.footer .second {
+    flex-direction: column;
+    width: fit-content;
+}
+
+.footer .second .upper-tc {
+    display: flex;
+    font-size: 13px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.footer .second .upper-tc p:nth-child(1) {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid grey;
+}
+
+.lower-copy {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.footer .third img {
+    width: 30%;
+    height: 100%;
+}
