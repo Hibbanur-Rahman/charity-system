@@ -1,0 +1,354 @@
+@media screen and (max-width:480px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding-top: 0px;
+    }
+
+    .navbar .left {
+        width: 100%;
+        height: 70px;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        right: 0px;
+        background: black;
+    }
+
+    .navbar .left img {
+        width: 40%;
+    }
+
+    .navbar .right {
+        width: 100%;
+        right: 0px;
+        height: auto;
+        background-color: black;
+        position: absolute;
+        z-index: -1;
+        top: -100vh;
+        transition: all 0.5s ease-in-out;
+        padding-bottom: 20px;
+    }
+
+    .navbar .right .list {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .navbar .right .list-Item {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px
+    }
+
+    .navbar .right .list .donate-btn {
+        width: 40%;
+        margin: auto;
+        border-radius: 20px;
+        height: 40px;
+    }
+
+    .navbar p {
+        font-size: 20px;
+    }
+
+    .navbar .right .list .donate-btn p {
+        font-size: 20px;
+    }
+
+    .slides .content {
+        width: 100%;
+        margin: auto;
+        padding: 30px;
+        box-sizing: border-box;
+        margin-top: 70px;
+    }
+
+    .slides .content h1 {
+        width: 91%;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .slides .content p:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .slides .content p:nth-child(3) {
+        font-size: 18px;
+        width: 90%;
+        font-weight: 550;
+    }
+
+    .slide-lower {
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .slide-lower .donate-btn {
+        width: 43%;
+    }
+
+    .slide-lower .Read-btn {
+        width: 43%;
+    }
+
+    .donate-btn p {
+        font-size: 18px;
+    }
+
+    .radio-btn {
+        width: 70px;
+        height: 25px;
+        left: 40%;
+        margin-top: 20px;
+    }
+
+    .right-arr {
+        left: 86vw;
+    }
+
+    .left-arr {
+        margin-left: -10px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+
+
+    .member-donar {
+        width: 100%;
+    }
+
+    .card-sec {
+        flex-direction: column;
+        padding: 15px;
+        height: auto;
+    }
+
+    .card-sec .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-us {
+        width: 100%;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .left-sec {
+        width: 100%;
+        padding: 0px;
+        height: 40vh;
+    }
+
+    .left-sec .image {
+        border-radius: 20px;
+    }
+
+    .counter {
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        height: auto;
+        overflow: hidden;
+        border-radius: 15px;
+        margin-top: -69px;
+    }
+
+    .count-item {
+        width: 49%;
+        height: 13vh;
+        border-top: 2px solid rgba(255, 255, 255, 0.595);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .count-item h3 {
+        font-size: 30px;
+    }
+
+    .count-item p:nth-child(2) {
+        font-size: 18px;
+    }
+
+    .right-sec {
+        width: 100%;
+        margin-top: 25vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right-sec p:nth-child(1) {
+        font-size: 23px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .right-sec h1 {
+        font-size: 34px;
+    }
+
+    .right-sec p:nth-child(3) {
+        font-size: 18px;
+        font-weight: 550;
+    }
+
+    .right-sec-low {
+        flex-direction: column-reverse;
+    }
+
+    .right-sec-low-right {
+        width: 85%;
+        height: 12vh;
+    }
+
+    .right-sec-low-left {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .right-sec-low-left div p {
+        font-size: 16px;
+    }
+
+    .learn {
+        width: 50%;
+    }
+
+    .learn p:nth-child(1) {
+        text-align: center;
+    }
+
+
+    .recent-campaign {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+        padding-top: 100px;
+    }
+    #recent-head-p{
+        font-size: 21px;
+        padding-bottom: 20px;
+    }
+    .recent-campaign h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .viewAll {
+        margin-top: 10px;
+        float: left;
+        margin-bottom: 30px;
+    }
+    .recent-campaign .row{
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .campaign-item {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .recent-campaign .donate-btn {
+        width: 45%;
+    }
+    .program-details {
+        width: 45%;
+    }
+
+
+
+    .events {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .events h1 {
+        font-size: 32px;
+    }
+    .events .row {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    .event-item {
+        width: 100%;
+        padding: 20px;
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+    .time-loc {
+        width: 100%;
+    }
+
+
+    .team {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        padding-top: 100px;
+    }
+    .team .row {
+        width: 100%;
+        padding-bottom: 0px;
+    }
+    .team-item {
+        width: 100%;
+        height: 40vh;
+        margin-bottom: 15vh;
+    }
+    .team h1 {
+        font-size: 31px;
+    }
+    .team-item .content {
+        bottom: -20vh;
+    }
+
+
+
+    .insights {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .insights h1 {
+        font-size: 32px;
+    }
+    .blog-item {
+        width: 100%;
+        flex-direction: column-reverse;
+        height: 54vh;
+        margin-bottom: 30px;
+    }
+    .blog-item .left{
+        width: 100%;
+    }
+    .blog-item .right{
+        width: 100%;
+    }
+
+
+    .footer {
+        flex-direction: column;
+        height: 30vh;
+        box-sizing: border-box;
+        padding: 6px;
+    }
+    .footer .first, .second, .third {
+        width: 100%;
+    }
+}

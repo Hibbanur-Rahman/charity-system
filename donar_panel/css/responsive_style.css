@@ -1,0 +1,52 @@
+@media screen and (max-width:480px) {
+    .sidebar {
+        width: 85%;
+        height: auto;
+        padding-top: 15vh;
+        padding-bottom: 15vh;
+        background-color: white;
+        left: -87%;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .main {
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: 0%;
+        padding: 10px;
+    }
+
+    .donate {
+        width: 100%;
+    }
+
+    .donate-listing {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .donate .row {
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+
+    .recent-campaign .row{
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .campaign-item {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .recent-campaign .donate-btn {
+        width: 45%;
+    }
+    .program-details {
+        width: 45%;
+    }
+}
